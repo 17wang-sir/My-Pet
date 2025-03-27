@@ -1,0 +1,121 @@
+/* style.css */
+
+/* 重置默认的边距和填充 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 将整个产品容器垂直和水平居中 */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; /* 可选：选择你喜欢的字体 */
+    background-color: #f0f0f0; /* 可选：添加背景颜色 */
+}
+
+.product-container {
+    display: flex;
+    max-width: 1000px; /* 根据你的喜好调整 */
+    width: 90%; /* 使容器占据更大空间 */
+    border: 1px solid #ccc; /* 可选：添加边框以进行视觉分隔 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 可选：添加阴影以增加深度 */
+    background-color: #fff; /* 可选：添加背景颜色 */
+}
+
+.product-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* 减少填充以减小间距 */
+}
+
+.product-image img {
+    max-width: 100%; /* 图片大小调整 */
+    height: auto;
+    max-height: 400px; /* 增大图片高度限制 */
+}
+
+.product-details {
+    flex: 1;
+    padding: 10px; /* 减少填充以减小间距 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 使内容垂直居中 */
+}
+
+.product-details h1 {
+    font-size: 28px; /* 增大字体大小 */
+    margin-bottom: 10px; /* 减少底部边距 */
+    text-align: left; /* 产品名称左对齐 */
+}
+
+.product-details .tagline {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px; /* 减少底部边距 */
+    font-size: 18px; /* 增大字体大小 */
+    text-align: left; /* 标语左对齐 */
+}
+
+.product-details .price {
+    font-size: 22px; /* 增大字体大小 */
+    color:red;
+    margin-bottom: 15px; /* 减少底部边距 */
+    text-align: left; /* 价格左对齐 */
+}
+
+.options {
+    margin-bottom: 10px; /* 减少底部边距 */
+    text-align: left; /* 选项左对齐 */
+}
+
+.options label {
+    margin-right: 10px; /* 减少右边距 */
+}
+
+.quantity {
+    margin-top: 10px; /* 减少顶部边距 */
+    display: flex;
+    align-items: center;
+}
+
+.quantity button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 15px; /* 增大按钮填充 */
+    cursor: pointer;
+    font-size: 16px; /* 增大字体大小 */
+}
+
+.quantity input {
+    width: 60px; /* 增大输入框宽度 */
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px; /* 增大填充 */
+    margin: 0 10px; /* 增加左右边距 */
+    font-size: 16px; /* 增大字体大小 */
+}
+
+.actions {
+    margin-top: 15px; /* 减少顶部边距 */
+    text-align: left; /* 动作按钮左对齐 */
+}
+
+.actions button {
+    background-color: #ff8080;
+    color: white;
+    border: none;
+    padding: 12px 25px; /* 增大按钮填充 */
+    cursor: pointer;
+    margin-right: 15px; /* 增大右边距 */
+    font-size: 16px; /* 增大字体大小 */
+}
+
+.actions button:hover {
+    background-color: #ff0000;
+}

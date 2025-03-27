@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img_login/login.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.big-box{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 400px;
+    background-color:rgba(0, 0, 0, 0.7);
+    border: 10px;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+.big-box h1{
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+}
+.buju{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-35px);
+}
+.zhma{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.zhma input{
+    border: 0;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    background-color: #ffffff00;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.denglu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 145px;
+    height: 25px;
+    color: #fff;
+    background: linear-gradient(120deg,#a6c0fe 0%,#f68084 100%);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.denglu a{
+    color: #3498db;
+    text-decoration: none;/* 让下划线消失 */
+    cursor: pointer;/*光标呈现为指示链接的指针（一只手） */
+    transition: all 1s;/* 别放到hover里，放到盒子里。否则只对hover有移上去的缓慢效果*/
+}
+.denglu a:hover{
+    transform: scale(1.1);/* 事件缩放 */
+    font-weight: bolder;
+}
+
+.remember-password {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 15px;
+}
+
+.remember-password a {
+    color: #3498db;
+    text-decoration: none;/*让下划线消失 */
+    cursor: pointer;
+}
+
+.remember-password a:hover {
+    color: rgb(250, 16, 8);
+}
+
+.zhuce{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 15px;
+    /* pointer-events: none; 元素永远不会成为鼠标事件*/
+}
+
+.zhuce a{
+    font-size: 15px;
+    color: #3498db;
+    text-decoration: none;/*让下划线消失 */
+    cursor: pointer;/*光标呈现为指示链接的指针（一只手） */
+}
+.zhuce a:hover{
+    color: blue;
+    font-weight: bolder;
+    background-color:white;
+}

@@ -1,0 +1,71 @@
+/* order.css */
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.order-list {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 200px; /* 增加顶部外边距以避免重叠 */
+}
+
+.order-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.order-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 19px;
+    vertical-align: middle;
+}
+
+.orderID {
+    font-weight: bold;
+    color: #ff6c00;
+}
+
+.money {
+    font-size: 20px;
+    color: red;
+}
+
+.order-details {
+    display: flex;
+    align-items: flex-start;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    background-color: #ff8000;
+    margin-right: 20px;
+}
+
+.product-info {
+    flex-grow: 1;
+}
+
+.order-items-id {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-info p {
+    margin: 5px 0;
+}
+
